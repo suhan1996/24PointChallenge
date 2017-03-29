@@ -9,16 +9,16 @@ const Comment = new mongoose.Schema({
     text: String,
     user: String
 });
-const Link = new mongoose.Schema({
-    url: String,
-    title: String,
-    comment: [Comment],
-    vote: Number
+const Results = new mongoose.Schema({
+    username: String,
+    time: Number,
+    round_time : {}
 });
 
-const Upvote = new mongoose.Schema({
-    number: Number
-})
+const Combinations = new mongoose.Schema({
+    combination: [],
+    average_time: Number
+});
 
 //URLSlugs('<user>');
 Link.plugin(URLSlugs('title'));
