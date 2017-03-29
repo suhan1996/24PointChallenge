@@ -3,6 +3,9 @@
 
 Online version of the classic game -- 24
 
+![Alt text](/documentation/cards1.jpg?raw=true "Optional Title")
+
+
 
 Database: Multiple combinations of cards, and respective solutions.
 
